@@ -10,7 +10,7 @@ class EmailService:
         self.smtp_username = settings.SMTP_USERNAME
         self.smtp_password = settings.SMTP_PASSWORD
         self.sender_email = settings.SMTP_USERNAME
-        self.recipient_email = "guykdavidson@gmsil.com"  # Your email address
+        self.recipient_email = "info.trumpetwinsouls@gmail.com"  # Your email address
 
     async def send_contact_email(self, name: str, email: str, message: str) -> bool:
         """
